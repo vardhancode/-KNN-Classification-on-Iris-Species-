@@ -1,2 +1,4 @@
 # -KNN-Classification-on-Iris-Species-
-Performing  k-Nearest Neighbors (KNN) on Iris Species Dataset
+In this project, we applied the k-Nearest Neighbors (KNN) algorithm to the classic Iris dataset (150 flowers, 3 species, 4 features: sepal length/width, petal length/width) to classify flowers based on their measurements. We began by splitting the data into training and test sets to ensure fair evaluation, then normalized the features using standardization so all measurements contributed equally to distance calculations. We trained KNN models with different values of K to see how the number of neighbors affects performance, selecting the K that gave the highest accuracy. 
+
+The final model was evaluated using accuracy, a confusion matrix, and classification metrics, revealing that 'setosa' is easily separated while most errors occur between 'versicolor' and 'virginica'. Finally, we visualized decision boundaries in 2D (petal length vs. petal width) to understand how KNN partitions the feature space, seeing that small K creates jagged, local boundaries and larger K produces smoother, more generalized regions.
